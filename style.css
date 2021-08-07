@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+  /* border: solid 1px purple; */
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: black;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background: #58a5f0;
+  margin: 150px auto;
+  width: 370px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+/* input:valid {
+    background-color: powderblue;
+  } */
+
+.container h2 {
+  text-align: center;
+  margin: 10px 16px 0;
+  padding: 32px 0 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.container form .login_container {
+  padding: 20px 16px 0;
+  position: relative;
+}
+
+.container form .login_container input {
+  height: 45px;
+  width: 100%;
+  margin: 0 0 16px;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 0px 50px 0px 20px;
+  background: #58a5f0;
+  color: black;
+  font-weight: bold;
+}
+
+.container form .login_container input::placeholder {
+    color: black;
+    font-weight: 500;
+}
+
+
+.container form .login_container .username svg {
+  position: absolute;
+  right: 35px;
+  top: calc(50% - 40px);
+}
+
+.container form .login_container .password img {
+  top: calc(50% - -20px);
+  right: 35px;
+  position: absolute;
+}
+
+.container form .checkbox_container .checkbox {
+    display: inline-block;
+    width: 50%;
+    margin: 0 16px 25px;
+    color: #ffffff;
+}
+
+.container form .checkbox_container a {
+    padding-left: 25px;
+}
+
+.submit_container {
+    margin: 0 16px;
+}
+.submit_container input {
+    background: #004c8c;
+    color: #ffffff;
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.sociais_container {
+    margin: 0 16px;
+    text-align: center;
+    position: relative;
+}
+.facebook, .twitter, .gmail{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.facebook {
+    background: #375c98;
+}
+
+.gmail {
+    background: #C54F33;
+}
+
+.twitter {
+    background: #4dadf2;
+}
+
+.facebook svg {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 102px;
+    color: #ffffff;
+}
+
+.gmail svg {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 156px;
+    color: #ffffff;
+}
+
+.twitter svg {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 211px;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #004c8c;
+    font-weight: bold;
+}
+
+hr {
+    margin: 16px; 
+    background: black;
+    height: 3px;
+    
+}
+
+footer {
+    text-align: center;
+    margin: 0 16px;
+    padding-bottom: 16px;
+    color: #ffffff;
+}
